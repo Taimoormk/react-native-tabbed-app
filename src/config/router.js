@@ -95,28 +95,28 @@ export const Tabs = TabNavigator ({
   Screen1: {
     screen: Screen1,
     navigationOptions: {
-      tabBarLabel: 'Services',
+      tabBarLabel: 'Screen1',
       tabBarIcon: ({ tintColor }) => <Icon name="sun-o" type="font-awesome" size={30} color={tintColor} />
     },
   },
   Screen2: {
     screen: Screen2,
     navigationOptions: {
-      tabBarLabel: 'Blogs',
+      tabBarLabel: 'Screen2',
       tabBarIcon: ({ tintColor }) => <Icon name="feed" type="font-awesome" size={30} color={tintColor} />
     },
   },
   Screen3: {
     screen: Screen3,
     navigationOptions: {
-      tabBarLabel: 'Claim',
+      tabBarLabel: 'Screen3',
       tabBarIcon: ({ tintColor }) => <Icon name="spinner" type="font-awesome" size={30} color={tintColor} />
     },
   },
   Screen4: {
     screen: Screen4,
     navigationOptions: {
-      tabBarLabel: 'Contact',
+      tabBarLabel: 'Screen4',
       tabBarIcon: ({ tintColor }) => <Icon name="phone" type="font-awesome" size={30} color={tintColor} />
     },
   }, 
